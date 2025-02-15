@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    background-image: url("images/alpagafondlol1.webp");
+    /**background-position: %;**/
+    background-position-y: 30%;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2em;
+    margin: 0em 0;
+    margin: 1em 0;
+    margin-left: 6%;
+}
+
+grille {
+    padding: 2em;
+    margin: 1em 0;
+    margin-left: 0;
+}
+
+.allo {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+
+.team-member, .event {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.team-member img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/*alignement de everybody*/
+.team-member, #team h2, #events h2, #offer h2, #contact h2, #contact p, #contact img {
+    text-align: center;
+}
+
+/*test background de trucs :*/
+#team{
+    /**background-image: url("images/cactusfondlod2.jpg");
+    z-index: -33333;*/
+}
+
+/*placement des ptits logos réseaux*/
+#logoplacement {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px; /*séparation entre logos*/
+}
+
+#logoplacement img {
+    margin: 15px; /*espacement autour de chaque logo /2 à sa box*/
+    width: 100px; 
+    height: auto;
+}
+
+
+/*Pour la sidebar*/
+
+
+.sidebar {
+    height: 100%;
+    width: 85px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    white-space: nowrap;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidebar .icon {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px; /* Adjust the size as needed */
+    filter: invert(100%); /* Makes the icon white */
+    vertical-align: middle; /* Aligns the icon vertically in the middle */
+    margin-right: 10px; /* Adds some space between the icon and the text */
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+/*fin sidebar*/

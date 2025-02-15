@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenssat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+        <a href="#team"><img src="images/team.png" alt="team" class="icon"><span class="icon-text">&nbsp;&nbsp;&nbsp;&nbsp;La Team</span></a><br>
+        <a href="#events"><img src="images/events.png" alt="events" class="icon"><span class="icon-text">&nbsp;&nbsp;&nbsp;&nbsp;Les Events</span></a><br>
+        <a href="#offer"><img src="images/allo.png" alt="allos" class="icon"><span class="icon-text">&nbsp;&nbsp;&nbsp;&nbsp;Les Allos</span></a><br>
+        <a href="#contact"><img src="images/social-media.png" alt="réseaux" class="icon"><span class="icon-text">&nbsp;&nbsp;&nbsp;&nbsp;Nos réseaux</span></a><br>
+    </div>
+
+    <header>
+        <h1>Agenssat</h1>
+        <h2>Si on gagne, ... PAS d'AEE !</h2>
+        <h3>(pas de WEI, pas de repas Kfet, plus de clubs...)</h3>
+    </header>
+
+    <section id="team">
+    <h2> ~ Notre superbe Équipe ~ </h2>
+    <grille id="team" class="team-grid">
+        <div class="team-member">
+            <img src="images/member1.jpg" alt="Member 1">
+            <h3>Lucie - "Je ne suis pas président.e tkt ^^"</h3>
+            <p>Co-président.e</p>
+        </div>
+        <div class="team-member">
+            <img src="images/member2.png" alt="Member 2">
+            <h3>Clem - Fan de Marisson n°1</h3>
+            <p>Co-président</p>
+        </div>
+        <div class="team-member">
+            <img src="images/member3.jpg" alt="Member 3">
+            <h3>Hélène - Logarithme népérien environ</h3>
+            <p>Trésorière</p>
+        </div>
+        <div class="team-member">
+            <img src="images/member4.jpg" alt="Member 4">
+            <h3>Elisa - Fabrique des hologrammes par millier</h3>   
+            <p>Secrétaire</p>
+        </div>
+        <div class="team-member">
+            <img src="images/member5.jpg" alt="Member 5">
+            <h3>Célian - C'est pas Célian le 2A</h3>
+            <p>Respo logistique et évents</p>
+        </div>
+        <div class="team-member">
+            <img src="images/member6.jpg" alt="Member 6">
+            <h3>Alexandre - Le phot violoniste</h3>
+            <p>BDA</p>
+        </div>
+        <div class="team-member">
+            <img src="images/member7.png" alt="Member 7">
+            <h3>Quentin - Toujours pas le 2A</h3>
+            <p>BDA</p>
+        </div>
+        <div class="team-member">
+            <img src="images/member8.png" alt="Member 8">
+            <h3>Ethan - Léon Marchand</h3>
+            <p>BDS</p>
+        </div>
+        <div class="team-member">
+            <img src="images/member9.png" alt="Member 9">
+            <h3>Méline - Décide de la météo de demain - #slay</h3>
+            <p>Respo communication et photos</p>
+        </div>
+        <div class="team-member">
+            <img src="images/member10.jpg" alt="Member 10">
+            <h3>Alexandre - info et minecrafteur pro</h3>
+            <p>Respo club/kfet</p>
+        </div>
+    </grille>
+    </section>
+
+    <section id="events">
+        <h2>~ Les Évènements ~</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <b>Repas Kfet</b>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Venez vous régaler (ou pas qui sait) avec un super repas Kfet par votre NON future AEE.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <b>Tournoi</b>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Venez participer à plusieurs activités au cours de petite compèt et gagnez (ou pas) un prix !
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <b>Alpa'chiche</b>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Buvez un coup et déchainez-vous sur le dance floor à la meilleure chiche de l'année !
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="offer">
+        <h2>~ Les Allos ~</h2>
+        <h3>N'hésitez pas à appeler :)</h3>
+
+        <div class="allo">Allo Miam - Faites vous livrer un kebab ou un tacos à domicile (seule la livraison est gratuite et dans un rayon de 1km autour de l'ENSSAT)<br>
+        Horaires :</div>
+
+        <div class="allo">Allo bordel - Appelez pour mettre le bordel chez vous et appelez une autre liste pour nettoyer après :)<br>
+        Horaires :</div>
+
+        <div class="allo">Allo Paillette - Appelez pour mettre des paillettes dans votre vie et dans celle des autres<br>
+        Horaires :</div>
+    </section>
+
+    <section id="contact">
+        <h2>~ Nos Réseaux ~</h2>
+            <div id="logoplacement">
+                <a href="https://www.instagram.com/enssalpaga/"><img src="images/logo_insta.png"/></a>  
+                <a href="https://www.twitch.tv/enssalpaga"><img src="images/logo_twitch.png"/></a>
+            </div>
+    </section>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
