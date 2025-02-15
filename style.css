@@ -3,14 +3,16 @@ body {
     margin-left: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #fbf4ff !important;
 }
 
+
 header {
-    background-color: #333;
+    background-color: #FAD4C0;
     background-image: url("images/alpagafondlol1.webp");
     /**background-position: %;**/
     background-position-y: 30%;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 1em 0;
     text-align: center;
 }
@@ -21,10 +23,32 @@ header h1 {
 
 section {
     padding: 2em;
-    margin: 0em 0;
     margin: 1em 0;
-    margin-left: 6%;
+    margin-right: 15px; /* Décale les sections pour éviter qu'elles soient sous la sidebar */
+    margin-left: 100px; /* Décale les sections pour éviter qu'elles soient sous la sidebar */
+    box-sizing: border-box; /* Assure que padding et border ne dépassent pas la largeur */
 }
+
+#team {
+    background-color: #FADADD;
+}
+
+#events {
+    background-color: #C1E1C1;
+}
+
+#offer {
+    background-color: #FDFD96;
+}
+
+#contact {
+    background-color: #BFD8E6;
+}
+
+section h2 {
+    background-color: rgba(255, 255, 255, 0.7); /* Couleur blanche avec opacité */
+}
+
 
 grille {
     padding: 2em;
@@ -93,7 +117,7 @@ grille {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #D6E2F0;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -124,7 +148,6 @@ grille {
 .sidebar .icon {
     width: 24px; /* Adjust the size as needed */
     height: 24px; /* Adjust the size as needed */
-    filter: invert(100%); /* Makes the icon white */
     vertical-align: middle; /* Aligns the icon vertically in the middle */
     margin-right: 10px; /* Adds some space between the icon and the text */
 }
