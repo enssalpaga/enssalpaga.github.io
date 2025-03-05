@@ -60,10 +60,21 @@ grille {
     text-align: center;
 }
 
+/* .team-member img { 
+     max-width: 100px; 
+     border-radius: 50%; 
+} */
+
 .team-member img {
-    max-width: 100px;
-    border-radius: 50%;
+    width: 150px;  /* Ajuste la largeur selon tes besoins */
+    height: 150px; /* Ajuste la hauteur */
+    object-fit: cover; /* Coupe l'image pour remplir la boîte */
+    /* clip-path: circle(40% at center); */
+    border-radius: 50%; /* Optionnel : arrondit les bords */
 }
+
+
+
 
 .team-grid {
     display: grid;
