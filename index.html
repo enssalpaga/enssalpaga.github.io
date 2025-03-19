@@ -11,26 +11,29 @@
 <body>
 
     <header>
-        <h1>Agenssat</h1>
+        <h1>ENSSALPAGA</h1>
         <h2>Si on gagne, ... PAS d'AEE !</h2>
         <h3>(pas de WEI, pas de repas Kfet, plus de clubs...)</h3>
-        <audio controls src="audio/apple.mp3" loop autoplay></audio>
+        <img src="images/logo.png" alt="Logo" class="logo" style="width: 200px; height: auto;"> <br>
+        <audio controls src="audio/takemeout.mp3" loop autoplay></audio>
+
 
         <button class="burger-menu" onclick="toggleSidebar()">☰</button>
             <div id="mySidebar" class="sidebar">
                 <a href="#team"><img src="images/team.png" alt="team" class="icon"><span class="icon-text"></span>team</a>
                 <a href="#events"><img src="images/events.png" alt="events" class="icon"><span class="icon-text"></span>events</a>
                 <a href="#offer"><img src="images/allo.png" alt="allos" class="icon"><span class="icon-text"></span>allos</a>
+                <a href="#card"><img src="images/card.png" alt="card" class="icon"><span class="icon-text"></span>card</a>
                 <a href="#contact"><img src="images/social-media.png" alt="réseaux" class="icon"><span class="icon-text"></span>réseaux</a>
             </div>
     </header>
 
     <section id="team">
-    <h2> ~ Notre superbe Équipe ~ </h2>
+    <h2> Notre Équipe </h2>
     <grille id="team" class="team-grid">
         <div class="team-member">
             <img src="images/imagesportrait/lucie.JPG" alt="Member 1">
-            <h3>Lucie - "Je ne suis pas président.e tkt ^^"</h3>
+            <h3>Lucie - "Je ne suis pas président.e tkt 😇"</h3>
             <p>Co-président.e</p>
         </div>
         <div class="team-member">
@@ -87,72 +90,86 @@
     </section>
 
     <section id="events">
-        <h2>~ Les Événements ~</h2>
+        <h2>Les Événements</h2>
 
         <button class="accordion"><b>Repas KFet</b> - Jeudi 27 mars en KFet C</button>
         <div class="panel">
-          <p>Venez manger des galettes et des crêpes puis participez à un super cache cache !!</p>
+          <p>Venez passer une super soirée à ce repas KFet ! <br>
+            Au programme : des galettes et des crêpes, suivies d’un cache-cache géant pour digérer tout ça en s’amusant. <br>
+            Bonne ambiance et bonne dose de fun ! On vous attend ! 🎉🥞🔦</p>
         </div>
         
         <button class="accordion"><b>Alpa'chiche</b> - Vendredi 28 mars à la chiche</button>
         <div class="panel">
-            C'est LA chiche à ne pas manquer ! <br>
+            C'est LA chiche à ne pas manquer ! 🔥<br>
           <p>Informations : <br>
-            - Inscription obligatoire sur HelloAsso : lien ici
+            - Inscription obligatoire, retrouve nous en le midi en Kfet <br>
+            - Une soirée qui s’annonce épique, alors prépare-toi ! 🎉
           </p>
         </div>
         
         <button class="accordion"><b>Alpagame</b> - Dimanche 30 mars en 002H</button>
         <div class="panel">
-            Prenez part à un tournoi d'épreuves et tenter de remporter la victoire ! Une récompense attend le vainqueur ! <br>
+            🔴🟢 Relevez le défi et affrontez les autres dans un tournoi d’épreuves impitoyables ! Seul(e) le meilleur pourra décrocher la victoire… et la récompense qui l’attend. 🏆 <br>
           <p>Informations :<br>
-            - Inscription obligatoire (places limitées)
+            - Inscription obligatoire (places limitées) <br>
+            - Alors, prêt.e à jouer ? 😈
           </p>
         </div>
 
         <button class="accordion"><b>Tournoi gaming</b> - Jeudi 3 avril en 002H</button>
         <div class="panel">
-            Venez tester vos skills dans une après-midi tournoi gaming ! Une récompense attend le gagnant de chaque tournoi !
-          <p>Informations :<br>
-            - Inscription obligatoire pour le tournoi LoL<br>
-            - Réponse au sondage recommandé pour les autres jeux
+            🎮🔥 Venez tester vos skills lors d'une après-midi tournoi gaming ! Affrontez d’autres joueurs et tentez de décrocher la victoire… Une récompense attend le gagnant de chaque tournoi ! 🏆
+            <p>Informations :<br>
+            - Tournoi LoL : Inscription obligatoire<br>
+            - Autres jeux : répondez au sondage pour qu’on s’organise au mieux !
           </p>
+          Prêt à montrer qui est le boss ? 👊🎮
         </div>
     </section>
     
 
     <section id="offer">
-        <h2>~ Les Allos ~</h2>
-        <h3>N'hésitez pas à appeler :) (hors horaire d'évent)</h3>
+        <h2>Les Allos</h2>
+        <h3>N'hésitez pas à appeler :) (hors évents)</h3>
         Pour nous contacter : <br>
-        - Téléphone : numéro 1 & numéro 2 <br>
-        - Appel/Message Instagram/Discord/WhatsApp/Messenger d'un membre de la liste <br>
-        - Sur les réseaux de la liste (risque d'une réponse moins rapidement)
+        <p id="tel">Téléphone/SMS : <b>06 33 27 86 56</b> & <b>07 83 63 20 84</b></p> <br>
 
         <div class="allo"><b>Allo Miam</b> - Faites vous livrer un kebab ou un tacos à domicile (seule la livraison est gratuite et sous réserve de distance)<br>
-        Horaires : (semaine) De 19h à 22h & (weekend) Horaire d'ouverture du resto</div>
+        <ins>Horaires :</ins> (semaine) De 19h à 22h & (weekend) Horaire d'ouverture du resto</div>
 
         <div class="allo"><b>Allo Attente</b> - Ecoutez une petite musique d'attente si vous vous ennuyez<br>
-            Horaires : Toute la journée </div>
+            <ins>Horaires :</ins> Toute la journée </div>
 
         <div class="allo"><b>Allo enlèvement</b> - Surprise<br>
-            Horaires : Le weekend</div>
+            <ins>Horaires :</ins> Le weekend</div>
 
         <div class="allo"><b>Allo coiffure</b> - P'tite coupe par nos soins<br>
-            Horaires : Soir de semaine et weekend</div>
+            <ins>Horaires :</ins> Soir de semaine et weekend</div>
 
-        <div class="allo"><b>Allo Flash</b> - Avec de l'ice tea ou du jus de pomme ? (négotiable pour d'autres alcools/soft)<br>
-            Horaires : Commandes jusqu'à 21h et livraison à partir de 19h30</div>
+        <div class="allo"><b>Allo Flash</b> - Avec de l'ice tea ou du jus de pomme ? (négotiable alcool/soft)<br>
+            <ins>Horaires :</ins> Commandes jusqu'à 21h et livraison à partir de 19h30</div>
 
         <div class="allo"><b>Allo positif</b> - On te hype/complimente par téléphone ou IRL<br>
-            Horaires : Toute la journée</div>
+            <ins>Horaires :</ins> Toute la journée</div>
 
         <div class="allo"><b>Allo Sport</b> - Besoin d'un partenaire pour aller courir, nager ou jouer ?<br>
-            Horaires : Soir de semaine et weekend</div>
+            <ins>Horaires :</ins> Soir de semaine et weekend</div>
+
+        <div class="allo"><b>Allo Gaming</b> - Un p'tite game ?<br>
+            <ins>Horaires :</ins> Soir de semaine et weekend</div>
         </section>
 
+
+    <section id="card">
+        <h2>Au fil des campagnes</h2>
+            <div>Collectionnez les <b>alpacards</b> durant nos évents ou lors de la chasse à l'alpaga en origami quotidienne !<br>
+                Essayez d'en avoir le plus possible !
+            </div>
+    </section>
+
     <section id="contact">
-        <h2>~ Nos Réseaux ~</h2>
+        <h2>Nos Réseaux</h2>
             <div id="logoplacement">
                 <a href="https://www.instagram.com/enssalpaga/"><img src="images/logo_insta.png"/></a>  
                 <a href="https://www.twitch.tv/enssalpaga"><img src="images/logo_twitch.png"/></a>

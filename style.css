@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'brat'; /*a name to be used later*/
-    src: url('fonts/brat.ttf'); /*URL to font*/
+    font-family: 'brat';
+    src: url('fonts/brat.ttf');
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif !important;
     margin-left: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,6 +32,25 @@ section {
     box-sizing: border-box; /* Assure que padding et border ne dépassent pas la largeur */
     background-color: #cbddc2;
     border-radius: 20px;
+}
+
+#offer {
+    text-align: center;
+}
+
+#tel {
+    font-size: 30px;
+}
+
+#card div  {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color: #f1f1ff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    font-size: 20px;
 }
 
 section h2 {
