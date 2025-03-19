@@ -40,6 +40,10 @@ section {
 
 #tel {
     font-size: 30px;
+    background-color: #e0f7fa; /* Light cyan background */
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block; /* Ensure background adapts to text length */
 }
 
 #card div  {
